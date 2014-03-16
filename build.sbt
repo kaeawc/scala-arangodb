@@ -19,7 +19,8 @@ libraryDependencies ++= Seq(
   "joda-time" % "joda-time" % "2.3",
   "org.joda" % "joda-convert" % "1.2",
   "com.typesafe.play" % "play-json_2.10" % "2.2.2",
-  "com.ning" % "async-http-client" % "1.8.3"
+  "com.ning" % "async-http-client" % "1.8.3",
+  "com.github.scala-incubator.io" % "scala-io-core_2.10.2" % "0.4.2"
 )
 
 scalacOptions ++= Seq(
@@ -27,6 +28,7 @@ scalacOptions ++= Seq(
   "UTF-8",
   "-deprecation",
   "-unchecked",
+  "-Xlint",
   "-feature",
   "-language:postfixOps",
   "-language:implicitConversions"
