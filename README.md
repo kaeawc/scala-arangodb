@@ -1,0 +1,2 @@
+# Scala ArangoDB Driver
+
